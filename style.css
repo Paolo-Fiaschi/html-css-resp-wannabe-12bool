@@ -13,6 +13,10 @@ section{
   background: lightblue;
   margin-top: 30px;
 }
+img{
+  box-shadow: 10px 10px;
+
+}
 /* section left 1 row --------------------------*/
 
 h2{
@@ -25,6 +29,7 @@ h3{
 }
 p{
   text-align: center;
+  margin: auto;
 }
 .dove-left,
 .dove-right{
@@ -32,7 +37,7 @@ p{
   padding: 20px;
   width: 100%;
   text-align: center;
-  min-height: 500px;
+  min-height: 400px;
 
 }
 .dove-left img{
@@ -50,7 +55,7 @@ p{
   padding: 20px;
   width: 100%;
   text-align: center;
-  min-height: 500px;
+  min-height: 400px;
 }
 .come-left img{
   width: 130px;
@@ -61,12 +66,13 @@ p{
   width: 130px;
   margin-bottom: 20px;
   text-align: center;
+  border-radius: 50%;
 }
 .come-central img{
   width: 130px;
   margin-bottom: 20px;
   text-align: center;
-
+  border-radius: 50%;
 }
 /* section left 2 row */
 .perche-title{
@@ -78,6 +84,7 @@ p{
   border-radius: 50%;
   padding: 20px;
   margin-top: 20px;
+  box-shadow: 10px 10px;
 }
 .perche-left,
 .perche-right,
@@ -113,7 +120,7 @@ p{
   min-height: 350px;
   margin-bottom: 30px;
   text-align: center;
-  min-height: 500px;
+  min-height: 400px;
 }
 /* versione mobile */
 @media screen and (max-width:768px){
@@ -139,7 +146,18 @@ p{
   }
   p{
     font-size: 20px;
+    margin: 0 20px;
   }
+  .perche-left,
+  .perche-central,
+  .perche-right{
+    background: lightblue;
+    min-height: 350px;
+    margin-bottom: 0px;
+    text-align: center;
+    min-height: 430px;
+  }
+
 }
     /* versione mobile */
 @media screen and (min-width:993px){
