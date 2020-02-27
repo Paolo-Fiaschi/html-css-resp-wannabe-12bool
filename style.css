@@ -9,12 +9,11 @@
   content: "";
   clear: both;
 }
-/* section left --------------------------*/
-/* degub */
-.clearfix{
-  border: 1px solid black;
+section{
+  background: lightblue;
+  margin-top: 30px;
 }
-/* end degub */
+/* section left 1 row --------------------------*/
 
 h2{
   text-align: center;
@@ -24,17 +23,134 @@ h2{
 h3{
   padding-bottom: 20px;
 }
-.left,
-.right{
+p{
+  text-align: center;
+}
+.dove-left,
+.dove-right{
   float: left;
   padding: 20px;
-  width: 50%;
+  width: 100%;
+  text-align: center;
+  min-height: 500px;
+
 }
-.left img{
-  width: 60%;
+.dove-left img{
+  width: 123px;
   margin-bottom: 20px;
 }
-.right img{
-  width: 80%;
-  margin-bottom: 40px;
+.dove-right img{
+  width: 170px;
+  margin-bottom: 20px;
+  margin-top: 18px;}
+/* section right 1 row ---------------------------*/
+.come-left,
+.come-right,
+.come-central{
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  min-height: 500px;
+}
+.come-left img{
+  width: 130px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.come-right img{
+  width: 130px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.come-central img{
+  width: 130px;
+  margin-bottom: 20px;
+  text-align: center;
+
+}
+/* section left 2 row */
+.perche-title{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.perche-title h2{
+  background: lightblue;
+  border-radius: 50%;
+  padding: 20px;
+  margin-top: 20px;
+}
+.perche-left,
+.perche-right,
+.perche-central{
+  padding: 20px;
+  width: 100%;
+}
+.perche-left img{
+  width: 150px;
+  margin-bottom: 20px;
+  background: lightgreen;
+  border-radius: 50%;
+  padding: 20px;
+}
+.perche-right img{
+  width: 150px;
+  margin-bottom: 22px;
+  background: lightgreen;
+  border-radius: 50%;
+  padding: 20px;
+}
+.perche-central img{
+  width: 150px;
+  margin-bottom: 22px;
+  background: lightgreen;
+  border-radius: 50%;
+  padding: 20px;
+}
+.perche-left,
+.perche-central,
+.perche-right{
+  background: lightblue;
+  min-height: 350px;
+  margin-bottom: 30px;
+  text-align: center;
+  min-height: 500px;
+}
+/* versione mobile */
+@media screen and (max-width:768px){
+
+  h2{
+    font-size: 35px;
+  }
+  h3{
+    font-size: 30px;
+  }
+  p{
+    font-size: 25px;
+  }
+}
+  /* versione tablet */
+@media screen and (min-width:769px) and (max-width:992px){
+
+  h2{
+    font-size: 30px;
+  }
+  h3{
+    font-size: 25px;
+  }
+  p{
+    font-size: 20px;
+  }
+}
+    /* versione mobile */
+@media screen and (min-width:993px){
+
+  h2{
+    font-size: 25px;
+  }
+  h3{
+    font-size: 20px;
+  }
+  p{
+    font-size: 15px;
+  }
 }
